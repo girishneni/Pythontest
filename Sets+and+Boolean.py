@@ -3,7 +3,7 @@
 
 # In[5]:
 
-#sets basics
+#sets basics methods and functions
 
 a=set()
 print(a)
