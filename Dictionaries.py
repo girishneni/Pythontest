@@ -4,7 +4,10 @@
 # In[1]:
 
 #dictionaries
+#intialization and assigning
+
 dict1={"key1":"value1","key2":"value2","key3":"value3"}
+
 
 
 # In[2]:
