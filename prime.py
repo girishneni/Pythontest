@@ -1,6 +1,6 @@
 i = 1
 
-x = int(input("Enter the number:"))
+x = int(input("Enter the no:"))
 
 for k in range(1, (x + 1), 1):
 
