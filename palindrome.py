@@ -1,4 +1,4 @@
-my_str=input("enter the string value:")
+my_str=input("enter the string values:")
 #making the string for a caseless comparision
 
 my_str=my_str.casefold()
