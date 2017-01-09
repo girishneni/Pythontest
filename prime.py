@@ -1,25 +1,11 @@
-i = 1
+def genprime(num):
+    i=1
+    for i in range(num):
+        if(i>1):
+            for x in range(2,i):
+                if(i%x==0):
+                    break
+            else:
+                    print(i)
 
-x = int(input("Enter the no:"))
-
-for k in range(1, (x + 1), 1):
-
-    c = 0;
-
-    for j in range(1, (i + 1), 1):
-
-        a = i % j
-
-        if (a == 0):
-            c = c + 1
-
-    if (c == 2):
-
-        print(i)
-
-    else:
-
-        k = k - 1
-
-    i = i + 1
-
+new=genprime(10)
