@@ -1,10 +1,9 @@
-my_str="hello world"
-word=my_str.split()
-print(len(word))
-countChar=0
-for i in range(len(word)):
-    for k in range(int(len(my_str)/2)):
-        print(word[i][k])
-        countChar+=1
+my_str="hello world Welcome to python"
+words=my_str.split()
+no_words=len(words)
+print("No of words in a string:",no_words)
 
-print(countChar)
+for i in range(no_words):
+    print("no of char in word",[i],"is :",len(words[i]))
+
+
